@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import GridBackground from "./components/GridBackground";
 import Hero from "./components/Hero";
@@ -18,6 +19,7 @@ function App() {
       {/* <Topic /> */}
       <Gallery />
       <Profile />
+      <Footer />
     </>
   );
 }
