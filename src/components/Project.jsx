@@ -1,5 +1,6 @@
 import React from "react";
 import * as Motion from "motion/react-client";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -31,7 +32,7 @@ const Project = () => {
       </div>
       <div
         className="flex p-8
-       justify-center items-center mt-12 mb-24 gap-16  max-lg:flex-col-reverse"
+       justify-center items-center mt-12 mb-24 gap-16  max-lg:flex-col"
       >
         <Motion.div
           whileInView={{ opacity: 1, x: 0 }}
@@ -61,12 +62,14 @@ const Project = () => {
               Museum for preserving the Phanom Surin shipwreck and knowledge of
               history, archeology, wastewater management.
             </p>
-            <button
-              className="text-sm bg-blue-950 hover:bg-blue-900 text-white
+            <Link to="/first-project">
+              <button
+                className="text-sm bg-blue-950 hover:bg-blue-900 text-white
              py-2 px-2 rounded"
-            >
-              Read more →
-            </button>
+              >
+                Read more →
+              </button>
+            </Link>
           </div>
         </Motion.div>
         <Motion.div
@@ -93,12 +96,14 @@ const Project = () => {
               The condominium for an inclusive living with variety of facilities
               that help feel relax and equal.
             </p>
-            <button
-              className="text-sm bg-blue-950 hover:bg-blue-900 text-white
+            <Link to="/second-project">
+              <button
+                className="text-sm bg-blue-950 hover:bg-blue-900 text-white
             py-2 px-2 rounded"
-            >
-              Read more →
-            </button>
+              >
+                Read more →
+              </button>
+            </Link>
           </div>
         </Motion.div>
 
@@ -124,12 +129,14 @@ const Project = () => {
               The relaxing atmosphere building full of activities that support
               learning and working habits for users.
             </p>
-            <button
-              className="bg-blue-950 hover:bg-blue-900 text-white bottom-
+            <Link to="/third-project">
+              <button
+                className="bg-blue-950 hover:bg-blue-900 text-white bottom-
            text-sm py-2 px-2 rounded"
-            >
-              Read more →
-            </button>
+              >
+                Read more →
+              </button>
+            </Link>
           </div>
         </Motion.div>
       </div>

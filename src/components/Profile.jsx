@@ -111,8 +111,11 @@ const Profile = () => {
                 ready to help everyone and succeed together.
               </p>
             </div>
-            <div className="  flex-col justify-items-center items-center bg-amber-300">
-              <h1 className="w-auto text-2xl max-sm:text-base p-5 text-center flex justify-center items-center bg-green-400">
+            <div className="  flex-col justify-items-center items-center ">
+              <h1
+                className="w-auto text-2xl max-sm:text-base p-5 text-center flex justify-center
+               items-center "
+              >
                 <b>Languages</b>
               </h1>
               <ul className="list-disc text-left max-sm:text-xs pl-5 text-primary">
@@ -121,10 +124,13 @@ const Profile = () => {
               </ul>
             </div>
             <div className="  flex-col justify-items-center max-sm:text-xs items-center mb-10">
-              <h1 className="w-auto p-5 text-2xl max-sm:text-base  flex justify-center items-center bg-green-400">
+              <h1
+                className="w-auto p-5 text-2xl max-sm:text-base  flex justify-center
+               items-center "
+              >
                 <b>Design Interests</b>
               </h1>
-              <ul className="list-disc text-left max-sm:text-xs pl-5 text-primary bg-red-500">
+              <ul className="list-disc text-left max-sm:text-xs pl-5 text-primary">
                 <li>Inclusive Design</li>
                 <li>Passive Design</li>
                 <li>Contemporary Architecture</li>

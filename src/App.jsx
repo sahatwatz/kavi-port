@@ -1,25 +1,22 @@
 import "./App.css";
-import Footer from "./components/Footer";
-import Gallery from "./components/Gallery";
-import GridBackground from "./components/GridBackground";
-import Hero from "./components/Hero";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
+import FirstProject from "./pages/FirstProject";
+import SecondProject from "./pages/SecondProject";
+import ThirdProject from "./pages/ThirdProject";
+import NoPage from "./pages/NoPage";
 import Navbar from "./components/Navbar";
-import Profile from "./components/Profile";
-import Project from "./components/Project";
-import Split from "./components/Split";
-import Topic from "./components/Topic";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Project />
-      <Split />
-      {/* <Topic /> */}
-      <Gallery />
-      <Profile />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/first-project" element={<FirstProject />} />
+        <Route path="/second-project" element={<SecondProject />} />
+        <Route path="/third-project" element={<ThirdProject />} />
+      </Routes>
     </>
   );
 }

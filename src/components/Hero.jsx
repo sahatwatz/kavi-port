@@ -109,7 +109,7 @@ const Hero = () => {
           <img
             src="/img/image/cover.png" // Replace with your image URL
             alt="Laptop"
-            className="w-full h-5/6 max-md:h-full object-cover rounded-2xl"
+            className="w-full h-6/7 -mt-10 max-md:h-full object-cover shadow-2xl rounded-2xl"
           />
         </Motion.div>
       </div>
