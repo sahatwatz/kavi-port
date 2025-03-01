@@ -6,7 +6,8 @@ const Hero = () => {
     <>
       <div
         className="flex flex-row max-md:flex-col-reverse
-       h-screen justify-center items-center relative max-sm:mb-40 max-md:mb-40 max-lg:mb-40"
+       h-screen justify-center items-center relative max-sm:mb-80 max-sm:mt-0
+        max-xl:mt-20 max-md:mb-40 max-lg:mb-40 mt-5 mb-20 max-xl:mb-40"
       >
         {/* Left Section (Text Content) */}
         <Motion.div
@@ -19,17 +20,20 @@ const Hero = () => {
           {/* Logo (Replace with your actual logo) */}
 
           {/* Text Content */}
-          <p className="text-sm text-blue-950 mb-4">
+          <p className="text-xs p-5 text-primary  mb-4">
             "Creating spaces that harmonize with their environment and inspire
             those who inhabit them is my driving passion."
           </p>
 
           <h1
-            className="font-light md:text-9xl
-          text-4xl   max-lg:text-6xl  text-black  mb-6 "
+            className="
+          text-7xl max-lg:text-6xl  max-md:text-4xl  max-sm:text-2xl max-xl:text-4xl mb-6 "
           >
             Hi,{" "}
-            <span className="text-8xl max-sm:text-2xl max-md:text-3xl">
+            <span
+              className="text-7xl max-sm:text-lg max-md:text-2xl max-lg:text-3xl
+            max-xl:text-4xl"
+            >
               my name <br /> is{" "}
             </span>
             <Motion.b
@@ -47,6 +51,7 @@ const Hero = () => {
                 ]
               }}
               transition={{ duration: 12, repeat: Infinity }}
+              className="text-8xl max-lg:text-6xl  max-md:text-4xl "
             >
               Kavipat
             </Motion.b>
@@ -64,13 +69,13 @@ const Hero = () => {
                 ]
               }}
               transition={{ duration: 12, repeat: Infinity }}
-              className="text-yellow-400"
+              className="text-yellow-400 text-6xl"
             >
               .
             </Motion.span>
           </h1>
 
-          <p className="text-3xl font-extralight text-blue-950 mb-8 max-sm:text-lg">
+          <p className="text-3xl opacity-50 text-primary max-sm:text-lg max-md:text-2xl max-lg:text-3xl max-xl:text-4xl">
             I'm an <b>Architect</b> from Phuket, Thailand
             <span className="text-yellow-400 text-5xl">.</span>
           </p>
@@ -80,9 +85,12 @@ const Hero = () => {
             <button className="bg-blue-950 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
               Get started
             </button>
-            <button className="text-blue-950 hover:text-blue-900 font-bold py-2 px-4">
+            <a
+              href="#"
+              className="text-blue-950 hover:text-blue-900 font-bold py-2 px-4"
+            >
               Resume →
-            </button>
+            </a>
           </div>
         </Motion.div>
 
@@ -92,7 +100,7 @@ const Hero = () => {
           initial={{ opacity: 0, x: 100 }}
           viewport={{ margin: "-100px" }}
           transition={{ duration: 1 }}
-          className="md:w-1/2 relative h-screen max-sm:mt-55  mr-20 max-md:mr-0 rounded-2xl"
+          className="md:w-1/2 max-sm:w-2/3 relative h-screen max-sm:mt-55  mr-20 max-md:mr-0 rounded-2xl"
         >
           <img
             src="/img/image/cover.png" // Replace with your image URL

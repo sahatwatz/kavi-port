@@ -1,7 +1,18 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "bangna";
+  src: url("/public/fonts/bangna-new.ttf");
+}
+
+@theme {
+  --font-bangna: bangna, sans-serif;
+  --color-primary: #0f1b61;
+  --color-secondary: #e4f0f8;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: bangna, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 24px;

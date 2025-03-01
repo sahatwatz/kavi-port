@@ -1,4 +1,22 @@
+@font-face {
+  font-family: "bangna";
+  src: url("/fonts/bangna-new.ttf") format("ttf");
+}
 @import "tailwindcss";
+
+:root {
+  --font-bangna: "bangna", sans-serif;
+  --color-primary: #0f1b61;
+  --color-secondary: #e4f0f8;
+}
+@font-face {
+  font-family: "bangna";
+  src: url("/fonts/bangna-new.ttf") format("ttf");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
 #root {
   text-align: center;
 

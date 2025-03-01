@@ -12,7 +12,7 @@ const Profile = () => {
         className="h-auto w-screen flex justify-center mb-24 items-center"
       >
         <div
-          className="bg-white max-lg:w-3/4 max-xl:w-2/3 max-md:w-4/5 max-sm:w-7/8
+          className="bg-white max-lg:w-3/4 max-xl:w-2/3 max-md:w-4/5 max-sm:w-6/7
          shadow-2xl mb-10 rounded-4xl w-1/3 h-auto text-blue-950 flex-col justify-center items-center"
         >
           <div className="overflow-auto text-base mt-5 flex-col justify-center items-center">
@@ -78,7 +78,7 @@ const Profile = () => {
           </div>
           <div className="flex justify-center items-center">
             <img
-              className="w-72 h-auto rounded-full object-cover"
+              className="w-72 h-auto max-sm:w- rounded-full object-cover"
               src="/img/image/avatar.png"
               alt="Profile"
             />
@@ -89,39 +89,39 @@ const Profile = () => {
             </h1>
           </div>
           <div className="  flex justify-center items-center">
-            <p className="w-96 p-5 overflow-auto text-left text-base text-gray-600 leading-7 tracking-wide indent-4">
+            <p className="w-96 p-5 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide indent-4">
               I am architect that was graduated from Kasetsart University,
               Bangkok, Thailand
             </p>
           </div>
           <div className="flex justify-center items-center">
-            <p className="w-100 p-5 overflow-auto text-left text-base text-gray-600 leading-7 tracking-wide">
+            <p className="w-100 p-5 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide">
               I was born in Phuket a tropical island rich in colonial
               architecture, resorts, hotels and the cultural diversity of
               Phuket.
             </p>
           </div>
           <div className=" flex justify-center items-center">
-            <p className="w-100 p-5 overflow-auto text-left text-base text-gray-600 leading-7 tracking-wide ">
+            <p className="w-100 p-5 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide ">
               I am a good-natured, responsible and diligent person, always ready
               to learn new things along with the people around me, and ready to
               help everyone and succeed together.
             </p>
           </div>
           <div className="  flex-col justify-items-center items-center">
-            <h1 className="w-100 text-2xl p-5 overflow-auto text-center flex justify-center items-center">
+            <h1 className="w-100 text-2xl p-5 overflow-auto text-center  flex justify-center items-center">
               <b>Languages</b>
             </h1>
-            <ul className="list-disc text-left pl-5 text-gray-700">
+            <ul className="list-disc text-left max-sm:text-xs pl-5 text-gray-700">
               <li>Thai - Native Language</li>
               <li>English - Well Communicated</li>
             </ul>
           </div>
-          <div className="  flex-col justify-items-center items-center mb-10">
+          <div className="  flex-col justify-items-center max-sm:text-xs items-center mb-10">
             <h1 className="w-100 p-5 text-2xl overflow-auto text-center  flex justify-center items-center">
               <b>Design Interests</b>
             </h1>
-            <ul className="list-disc text-left pl-5 text-gray-700">
+            <ul className="list-disc text-left max-sm:text-xs pl-5 text-gray-700">
               <li>Inclusive Design</li>
               <li>Passive Design</li>
               <li>Contemporary Architecture</li>

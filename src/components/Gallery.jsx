@@ -30,7 +30,7 @@ const Gallery = () => {
         sm:columns-2 lg:columns-3 py-10 md:py-20 gap-8"
         >
           {images.map((src, index) => (
-            <div key={index} className="mb-4 break-inside-avoid">
+            <div key={index} className="mb-4 break-inside-avoid ">
               <Motion.img
                 whileInView={{ opacity: 1 }}
                 viewport={{ margin: "-100px" }}
