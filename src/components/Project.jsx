@@ -4,7 +4,7 @@ import * as Motion from "motion/react-client";
 const Project = () => {
   return (
     <>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-10">
         <Motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
@@ -17,7 +17,7 @@ const Project = () => {
           initial={{ opacity: 0, y: -50 }}
           viewport={{ margin: "-50px" }}
           transition={{ duration: 1 }}
-          className="text-4xl max-sm:text-2xl"
+          className="text-4xl max-sm:text-2xl -mb-10"
         >
           Projects
         </Motion.h1>
