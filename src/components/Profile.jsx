@@ -111,20 +111,20 @@ const Profile = () => {
                 ready to help everyone and succeed together.
               </p>
             </div>
-            <div className="  flex-col justify-items-center items-center">
-              <h1 className="w-100 text-2xl max-sm:text-base p-5 overflow-auto text-center  flex justify-center items-center">
+            <div className="  flex-col justify-items-center items-center bg-amber-300">
+              <h1 className="w-auto text-2xl max-sm:text-base p-5 text-center flex justify-center items-center bg-green-400">
                 <b>Languages</b>
               </h1>
-              <ul className="list-disc text-left max-sm:text-xs pl-5 text-gray-700">
+              <ul className="list-disc text-left max-sm:text-xs pl-5 text-primary">
                 <li>Thai - Native Language</li>
                 <li>English - Well Communicated</li>
               </ul>
             </div>
             <div className="  flex-col justify-items-center max-sm:text-xs items-center mb-10">
-              <h1 className="w-100 p-5 text-2xl max-sm:text-base overflow-auto text-center  flex justify-center items-center">
+              <h1 className="w-auto p-5 text-2xl max-sm:text-base  flex justify-center items-center bg-green-400">
                 <b>Design Interests</b>
               </h1>
-              <ul className="list-disc text-left max-sm:text-xs pl-5 text-gray-700">
+              <ul className="list-disc text-left max-sm:text-xs pl-5 text-primary bg-red-500">
                 <li>Inclusive Design</li>
                 <li>Passive Design</li>
                 <li>Contemporary Architecture</li>
