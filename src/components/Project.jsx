@@ -4,7 +4,7 @@ import * as Motion from "motion/react-client";
 const Project = () => {
   return (
     <>
-      <div className="flex justify-center items-center mt-10">
+      <div className="flex justify-center items-center mt-40">
         <Motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
@@ -17,7 +17,7 @@ const Project = () => {
           initial={{ opacity: 0, y: -50 }}
           viewport={{ margin: "-50px" }}
           transition={{ duration: 1 }}
-          className="text-4xl max-sm:text-2xl -mb-10"
+          className="text-4xl max-sm:text-2xl"
         >
           Projects
         </Motion.h1>
@@ -74,7 +74,7 @@ const Project = () => {
           initial={{ opacity: 0, x: -100 }}
           viewport={{ margin: "-100px" }}
           transition={{ duration: 1 }}
-          class="w-64 h-102 max-w-sm max-lg:max-w-xl max-sm:max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          class="w-64 h-102 max-w-sm max-lg:max-w-xl max-sm:max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm"
         >
           <a href="#">
             <img class="rounded-t-lg" src="/img/image/project2.png" alt="" />
@@ -107,7 +107,7 @@ const Project = () => {
           initial={{ opacity: 0, x: -100 }}
           viewport={{ margin: "-100px" }}
           transition={{ duration: 1 }}
-          class="w-64 h-102 max-w-sm max-lg:max-w-xl max-sm:max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          class="w-64 h-102 max-w-sm max-lg:max-w-xl max-sm:max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm"
         >
           <a href="#">
             <img class="rounded-t-lg" src="/img/image/project3.png" alt="" />
