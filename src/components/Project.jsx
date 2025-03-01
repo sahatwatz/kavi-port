@@ -81,7 +81,7 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl  tracking-tight text-blue-950 dark:text-white">
+              <h5 class="mb-2 text-2xl  tracking-tight text-blue-950">
                 <b>The Terrarium</b>{" "}
                 <span className="text-sm text-primary opacity-50">
                   <br />
@@ -114,7 +114,7 @@ const Project = () => {
           </a>
           <div class="p-5">
             <a href="#">
-              <h5 class="mb-2 text-2xl  tracking-tight text-blue-950 dark:text-white">
+              <h5 class="mb-2 text-2xl  tracking-tight text-blue-950">
                 <b>Royal City</b>
                 <br />
                 <span className="text-sm text-primary opacity-50">Avenue</span>
