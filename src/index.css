@@ -38,3 +38,25 @@ body {
 h1 {
   color: #0f1b61;
 }
+
+@media (max-width: 320px) {
+  .screen-xxs {
+    width: 20rem; /* ลดขนาดฟอนต์ */
+  }
+
+  .hero-xs {
+    display: none; /* ซ่อนบาง element */
+    margin-top: 10rem; /* ซ่อนบาง element */
+  }
+}
+@media (max-width: 475px) {
+  .screen-xss {
+    width: 20rem; /* ลดขนาดฟอนต์ */
+  }
+  .small-font {
+    font-size: 0.6rem;
+  }
+  .img-xs {
+    width: 1rem;
+  }
+}

@@ -6,8 +6,8 @@ const Hero = () => {
     <>
       <div
         className="flex flex-row max-md:flex-col-reverse
-       h-screen justify-center items-center relative max-sm:mb-80 max-sm:mt-0
-        max-xl:mt-20 max-md:mb-40 max-lg:mb-40 mt-5 mb-20 max-xl:mb-40"
+       h-screen justify-center items-center relative max-sm:mb-80 max-sm:mt-10
+        max-xl:mt-20 max-md:mb-60 max-lg:mb-40 mt-15 mb-20 max-xl:mb-40"
       >
         {/* Left Section (Text Content) */}
         <Motion.div
@@ -15,7 +15,8 @@ const Hero = () => {
           initial={{ opacity: 0, x: -100 }}
           viewport={{ margin: "-100px" }}
           transition={{ duration: 1 }}
-          className="md:w-2/2 p-8 md:p-16 flex-row justify-center items-center"
+          className="md:w-2/2 p-8 md:p-16 flex-row -mt-30
+          max-2xl:mt-0 max-xl: max-lg:mt-10 max-md:-mt-0 max-sm: justify-center items-center"
         >
           {/* Logo (Replace with your actual logo) */}
 
@@ -75,19 +76,22 @@ const Hero = () => {
             </Motion.span>
           </h1>
 
-          <p className="text-3xl opacity-50 text-primary max-sm:text-lg max-md:text-2xl max-lg:text-3xl max-xl:text-4xl">
+          <p className="text-3xl opacity-50 text-primary max-sm:text-base  max-md:text-2xl max-lg:text-3xl max-xl:text-4xl">
             I'm an <b>Architect</b> from Phuket, Thailand
             <span className="text-yellow-400 text-5xl">.</span>
           </p>
 
           {/* Buttons */}
           <div className="flex space-x-4 justify-center items-center mt-16">
-            <button className="bg-blue-950 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
+            <button
+              className="bg-blue-950 hover:bg-blue-900
+             max-sm:text-xs text-white py-2 px-4 rounded"
+            >
               Get started
             </button>
             <a
               href="#"
-              className="text-blue-950 hover:text-blue-900 font-bold py-2 px-4"
+              className="text-blue-950 hover:text-blue-900 max-sm:text-base py-2 px-4"
             >
               Resume →
             </a>

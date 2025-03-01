@@ -17,7 +17,7 @@ const Project = () => {
           initial={{ opacity: 0, y: -50 }}
           viewport={{ margin: "-50px" }}
           transition={{ duration: 1 }}
-          className="text-4xl"
+          className="text-4xl max-sm:text-2xl"
         >
           Projects
         </Motion.h1>

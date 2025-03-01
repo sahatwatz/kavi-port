@@ -17,7 +17,7 @@ const Split = () => {
           initial={{ opacity: 0, y: -50 }}
           viewport={{ margin: "-100px" }}
           transition={{ duration: 1 }}
-          className="text-5xl"
+          className="text-5xl max-sm:text-2xl"
         >
           Sketches
         </Motion.h1>
