@@ -7,10 +7,12 @@ import SecondProject from "./pages/SecondProject";
 import ThirdProject from "./pages/ThirdProject";
 import NoPage from "./pages/NoPage";
 import Navbar from "./components/Navbar";
+import PreLoader from "./components/PreLoader";
 
 function App() {
   return (
     <>
+      <PreLoader />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/first-project" element={<FirstProject />} />

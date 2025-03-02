@@ -7,7 +7,6 @@ import Profile from "../components/Profile";
 import Project from "../components/Project";
 import Split from "../components/Split";
 import { BackToTop } from "../components/BackToTop";
-import PreLoader from "../components/PreLoader";
 
 const Landing = () => {
   useEffect(() => {
@@ -16,7 +15,6 @@ const Landing = () => {
 
   return (
     <>
-      <PreLoader />
       <Navbar />
       <Hero />
       <Project />
