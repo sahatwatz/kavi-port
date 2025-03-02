@@ -1,8 +1,14 @@
 import React from "react";
 import * as Motion from "motion/react-client";
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <>
       <div className="flex justify-center">
@@ -42,19 +48,13 @@ const Navbar = () => {
            text-xl max-sm:justify-items-end max-sm:text-xs max-sm:gap-2 max-xl:gap-4 max-md:text-lg max-md:justify-end max-sm:justify-end max-md:ml-8 max-sm:ml-16"
           >
             <h1>
-              <Link to="/first-project">
-                <a href="#">Project</a>
-              </Link>
+              <a onClick={() => scrollToSection("project-section")}>Project</a>
             </h1>
             <h1>
-              <Link to="/second-project">
-                <a href="#">Sketches</a>
-              </Link>
+              <a onClick={() => scrollToSection("gallery-section")}>Sketches</a>
             </h1>
             <h1>
-              <Link to="/third-project">
-                <a href="">Contact</a>
-              </Link>
+              <a onClick={() => scrollToSection("contact-section")}>Contact</a>
             </h1>
           </Motion.div>
         </div>

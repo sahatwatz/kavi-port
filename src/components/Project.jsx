@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 const Project = () => {
   return (
     <>
-      <div className="flex justify-center items-center mt-40">
+      <div
+        id="project-section"
+        className="flex justify-center items-center mt-40"
+      >
         <Motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}

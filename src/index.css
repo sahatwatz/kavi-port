@@ -9,6 +9,7 @@
   --font-bangna: bangna, sans-serif;
   --color-primary: #0f1b61;
   --color-secondary: #e4f0f8;
+  --breakpoint-max-xs: 20rem;
 }
 
 :root {
@@ -20,7 +21,8 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   /* background-color: #e4f0f8; */
-  background-color: #ebf9ff;
+  /* background-color: #ebf9ff; */
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +36,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+a {
+  cursor: pointer;
 }
 
 h1 {
@@ -59,5 +65,11 @@ h1 {
   }
   .img-xs {
     width: 1rem;
+  }
+  .left-pad {
+    padding-left: 5rem;
+  }
+  .left-pad img {
+    width: 20rem;
   }
 }

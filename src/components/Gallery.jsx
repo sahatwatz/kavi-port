@@ -24,7 +24,10 @@ const Gallery = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center mt-0 relative">
+      <div
+        id="gallery-section"
+        className="flex justify-center items-center mt-0 relative"
+      >
         <div
           className="max-w-2/3  px-12 justify-center items-center columns-1
         sm:columns-2 lg:columns-3 py-10 md:py-20 gap-8"

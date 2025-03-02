@@ -4,7 +4,7 @@ import * as Motion from "motion/react-client";
 const Profile = () => {
   return (
     <>
-      <div className="flex justify-center items-center">
+      <div id="contact-section" className="flex justify-center items-center">
         <Motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
@@ -92,20 +92,20 @@ const Profile = () => {
               </h1>
             </div>
             <div className="  flex justify-center items-center">
-              <p className="w-96 p-5 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide indent-4">
+              <p className="w-96 p-4 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide indent-4">
                 I am architect that was graduated from Kasetsart University,
-                Bangkok, Thailand
+                Bangkok, Thailand.
               </p>
             </div>
             <div className="flex justify-center items-center">
-              <p className="w-100 p-5 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide">
+              <p className="w-100 p-4 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide">
                 I was born in Phuket a tropical island rich in colonial
                 architecture, resorts, hotels and the cultural diversity of
                 Phuket.
               </p>
             </div>
             <div className=" flex justify-center items-center">
-              <p className="w-100 p-5 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide ">
+              <p className="w-100 p-4 overflow-auto text-left max-sm:text-xs text-base text-gray-600 leading-7 tracking-wide ">
                 I am a good-natured, responsible and diligent person, always
                 ready to learn new things along with the people around me, and
                 ready to help everyone and succeed together.

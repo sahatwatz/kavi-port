@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-10">
         <div
           className="w-screen h-1/2 max-sm:text-xs
        bg-white text-blue-950 p-5 rounded-t-4xl shadow-2xl flex-col justify-center items-center"

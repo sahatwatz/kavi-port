@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <>
       <div
+        id="top-section"
         className="flex flex-row max-md:flex-col-reverse
        h-screen justify-center items-center relative max-sm:mb-80 max-sm:mt-10
         max-xl:mt-20 max-md:mb-60 max-lg:mb-40 mt-15 mb-20 max-xl:mb-40"
@@ -83,15 +84,18 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="flex space-x-4 justify-center items-center mt-16">
-            <button
+            {/* <button
               className="bg-blue-950 hover:bg-blue-900
              max-sm:text-xs text-white py-2 px-4 rounded"
             >
               Get started
-            </button>
+            </button> */}
             <a
-              href="#"
-              className="text-blue-950 hover:text-blue-900 max-sm:text-base py-2 px-4"
+              href="https://issuu.com/neanderthalensis/docs/portfolio_kavipat_akkabuth"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              className="text-blue-950 hover:text-blue-900 max-sm:text-base
+              rounded-lg py-2 px-4 border-1 border-blue-950"
             >
               Resume →
             </a>
