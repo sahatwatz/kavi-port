@@ -36,7 +36,7 @@ const Navbar = () => {
               repeatDelay: 1
             }}
             className="w-12 h-12 max:sm:z-20 rounded-full max-sm:w-10
-           max-sm:h-10 max-sm:ml-1 max-sm:mt-1"
+           max-sm:h-10 max-sm:ml-12 max-sm:mt-1"
             src="/favicon.ico"
             alt="logo"
           />
@@ -45,7 +45,9 @@ const Navbar = () => {
             transition={{ duration: 2.5, delay: 1 }}
             viewport={{ once: true }}
             className="p-2 flex gap-12 mr-16 text-primary px-4
-           text-xl max-sm:justify-items-end max-sm:text-xs max-sm:gap-2 max-xl:gap-4 max-md:text-lg max-md:justify-end max-sm:justify-end max-md:ml-8 max-sm:ml-16"
+           text-xl max-sm:justify-items-end max-sm:text-xs
+           max-sm:gap-2 max-xl:gap-4 max-md:text-lg max-md:justify-end
+           max-sm:justify-end max-md:ml-8 max-sm:mr-30"
           >
             <h1>
               <a onClick={() => scrollToSection("project-section")}>Project</a>
