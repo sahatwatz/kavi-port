@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SecondNavbar from "../components/SecondNavbar";
+import Avenue from "../components/Avenue";
+import Footer from "../components/Footer";
+import { HomeButton } from "../components/HomeButton";
+import { Back } from "../components/Back";
 
 const ThirdProject = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <SecondNavbar />
-      <div className="flex items-center justify-center h-screen w-screen bg-white">
-        <div className="flex items-center justify-center">
-          <h1 className="text-6xl">Royal City Avenue</h1>
-        </div>
-      </div>
+      <Avenue />
+      <HomeButton />
+      <Back />
+      <Footer />
     </>
   );
 };

@@ -1,15 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import SecondNavbar from "../components/SecondNavbar";
+import Condo from "../components/Condo";
+import Footer from "../components/Footer";
+import { NextOne } from "../components/NextOne";
+import { HomeButton } from "../components/HomeButton";
 
 const SecondProject = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <SecondNavbar />
-      <div className="flex items-center justify-center h-screen w-screen bg-white">
-        <div className="flex items-center justify-center">
-          <h1 className="text-6xl">The Terrarium condominium</h1>
-        </div>
-      </div>
+      <Condo />
+      <HomeButton />
+      <NextOne />
+      <Footer />
     </>
   );
 };
